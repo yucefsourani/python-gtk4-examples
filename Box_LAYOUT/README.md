@@ -10,7 +10,7 @@ class MainWindow(Gtk.ApplicationWindow):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.app_ = self.get_application()
-        
+
         self.main_vertical_box = Gtk.Box.new( Gtk.Orientation.VERTICAL,10) #(orientation VERTICAL|HORIZONTAL  , spacing in pixels)
         self.set_child(self.main_vertical_box)
 
@@ -18,7 +18,7 @@ class MainWindow(Gtk.ApplicationWindow):
         self.about_button.set_label("About") # Or Change "label Propertie" self.about_button.props.label = "About"
         self.about_button.connect("clicked",self.on_about_button_clicked,"My Example App")
         self.main_vertical_box.append(self.about_button)
-        
+
         self.quit_button = Gtk.Button.new_with_label("Quit")
         self.quit_button.connect("clicked",self.on_quit_button_clicked)
         self.quit_button.props.vexpand = True  # Whether to expand vertically
@@ -27,14 +27,14 @@ class MainWindow(Gtk.ApplicationWindow):
 
     def on_about_button_clicked(self,about_clicked_button,msg):
         print(msg)
-        
+
     def on_quit_button_clicked(self,quit_clicked_button):
         self.app_.quit()
-    
+
 class MyApp(Gtk.Application):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        
+
     def do_activate(self):
         active_window = self.props.active_window
         if active_window:
