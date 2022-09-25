@@ -13,3 +13,5 @@
 * [Gtk.Label](https://github.com/yucefsourani/python-gtk4-examples/tree/main/label)
 
 * [Gtk.HeaderBar+Gtk.MenuButton](https://github.com/yucefsourani/python-gtk4-examples/tree/main/headerbar_and_menubutton)
+
+* [Gtk.Spinner](https://github.com/yucefsourani/python-gtk4-examples/tree/main/spinner)
