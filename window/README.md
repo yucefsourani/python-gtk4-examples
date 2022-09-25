@@ -24,4 +24,4 @@ while not QUIT:
     loop.iteration(True)
 ```
 
-![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/window_ex/Screenshot_1.png "Screenshot")
+![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/window/Screenshot_1.png "Screenshot")
