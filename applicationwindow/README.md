@@ -21,7 +21,7 @@ class MyApp(Gtk.Application):
         if active_window:
             active_window.present()
         else:
-            self.win = MainWindow(application=self)
+            self.win = MainWindow(application=app)
             self.win.present()
 
 
