@@ -47,6 +47,6 @@ app = MyApp(application_id="com.github.yucefsourani.myapplicationexample",flags=
 app.run(sys.argv)
 ```
 
-![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/box_LAYOUT/Screenshot.png "Screenshot")
+![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/Box_LAYOUT/Screenshot.png "Screenshot")
 
 [Gtk.Box](https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/Box.html)
