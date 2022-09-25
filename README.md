@@ -8,6 +8,6 @@
 
 * [Gtk.Button](https://github.com/yucefsourani/python-gtk4-examples/tree/main/button)
 
-* [Gtk.Box](https://github.com/yucefsourani/python-gtk4-examples/tree/main/box_LAYOUT)
+* [Gtk.Box](https://github.com/yucefsourani/python-gtk4-examples/tree/main/Box_LAYOUT)
 
 * 
