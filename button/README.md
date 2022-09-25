@@ -37,4 +37,4 @@ app.run(sys.argv)
 
 ![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/button/Screenshot.png "Screenshot")
 
-[Gtk.Button]([PyGObject API Reference](https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/Button.html))
+[Gtk.Button](https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/Button.html)
