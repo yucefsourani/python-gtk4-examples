@@ -15,3 +15,5 @@
 * [Gtk.HeaderBar+Gtk.MenuButton](https://github.com/yucefsourani/python-gtk4-examples/tree/main/headerbar_and_menubutton)
 
 * [Gtk.Spinner](https://github.com/yucefsourani/python-gtk4-examples/tree/main/spinner)
+
+* [Gtk.ToggleButton](https://github.com/yucefsourani/python-gtk4-examples/tree/main/togglebutton)
