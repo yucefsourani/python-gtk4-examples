@@ -23,3 +23,5 @@
 * [Gtk.LinkButton](https://github.com/yucefsourani/python-gtk4-examples/tree/main/linkbutton)
 
 * [Gtk.Switch](https://github.com/yucefsourani/python-gtk4-examples/tree/main/switch)
+
+* [Gtk.VolumeButton](https://github.com/yucefsourani/python-gtk4-examples/tree/main/volumebutton)
