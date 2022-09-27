@@ -10,19 +10,33 @@ class MainWindow(Gtk.ApplicationWindow):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.app_ = self.get_application()
-
-        self.button = Gtk.Button.new_with_label("Quit")
-        self.button.connect("clicked",self.on_quit_button_clicked)
-
-        self.set_child(self.button)
-
-    def on_quit_button_clicked(self,clicked_button):
-        self.app_.quit()
+        
+        self.main_vertical_box = Gtk.Box.new( Gtk.Orientation.VERTICAL,10)
+        self.set_child(self.main_vertical_box)
+        
+        self.linkbutton_1 = Gtk.LinkButton.new_with_label("https://arfedora.blogspot.com","MyWeb")
+        self.main_vertical_box.append(self.linkbutton_1 )
+        
+        h_separator = Gtk.Separator.new(Gtk.Orientation.HORIZONTAL)
+        self.main_vertical_box.append(h_separator )
+        
+        self.linkbutton_2 = Gtk.LinkButton.new("https://arfedora.blogspot.com")
+        self.linkbutton_2.connect("activate-link",self.on_linkbutton_2_clicked)
+        self.main_vertical_box.append(self.linkbutton_2 )
+        
+        self.enable_disable_linkbutton2_open_link = Gtk.ToggleButton.new_with_label("Enable/Disable Open Second Link")
+        self.main_vertical_box.append(self.enable_disable_linkbutton2_open_link )
+        
+    def on_linkbutton_2_clicked(self,linkbutton_2 ):
+        # To override the default behavior, you can connect to the ::activate-link signal and stop the propagation of the signal by returning True from your handler.
+        is_active = self.enable_disable_linkbutton2_open_link.get_active()
+        return is_active # if False open link if True ignore open link
+        
 
 class MyApp(Gtk.Application):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-
+        
     def do_activate(self):
         active_window = self.props.active_window
         if active_window:
