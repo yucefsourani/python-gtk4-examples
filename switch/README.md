@@ -22,7 +22,7 @@ class MainWindow(Gtk.ApplicationWindow):
         hbox.append(spinner)
 
         switch = Gtk.Switch.new()
-        switch.connect("notify::active",self.on_switch_active_changed,spinner)
+        switch.connect("notify::active",self.on_switch_active_changed,spinner) # notify when propertie changed
         hbox.append(switch)
         
     def on_switch_active_changed(self,switch,property_,spinner):
