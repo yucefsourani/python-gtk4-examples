@@ -19,3 +19,5 @@
 * [Gtk.ToggleButton](https://github.com/yucefsourani/python-gtk4-examples/tree/main/togglebutton)
 
 * [Gtk.ProgressBar](https://github.com/yucefsourani/python-gtk4-examples/tree/main/progressbar)
+
+* [Gtk.LinkButton](https://github.com/yucefsourani/python-gtk4-examples/tree/main/linkbutton)
