@@ -21,3 +21,5 @@
 * [Gtk.ProgressBar](https://github.com/yucefsourani/python-gtk4-examples/tree/main/progressbar)
 
 * [Gtk.LinkButton](https://github.com/yucefsourani/python-gtk4-examples/tree/main/linkbutton)
+
+* [Gtk.Switch](https://github.com/yucefsourani/python-gtk4-examples/tree/main/switch)
