@@ -14,8 +14,6 @@ class MainWindow(Gtk.ApplicationWindow):
         self.main_vertical_box = Gtk.Box.new( Gtk.Orientation.VERTICAL,10) #(orientation VERTICAL|HORIZONTAL  , spacing in pixels)
         self.set_child(self.main_vertical_box)
 
-        spinner1 = Gtk.Spinner.new()
-        self.main_vertical_box.append(spinner1)
 
         self.color_button1 = Gtk.ColorButton.new()
         self.color_button1.set_use_alpha(True)
