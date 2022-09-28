@@ -1,4 +1,4 @@
-# Gtk.ToggleButton
+# Gtk.CheckButton
 
 ```python
 import sys
@@ -17,7 +17,7 @@ class MainWindow(Gtk.ApplicationWindow):
         spinner1 = Gtk.Spinner.new()
         self.main_vertical_box.append(spinner1)
 
-        self.start_stop_spinner1_button = Gtk.ToggleButton.new_with_label("Start/Stop Spinner1")
+        self.start_stop_spinner1_button = Gtk.CheckButton.new_with_label("Start/Stop Spinner1")
         self.start_stop_spinner1_button.connect("toggled",self.on_start_stop_spinner_button_toggled,spinner1)
         self.main_vertical_box.append(self.start_stop_spinner1_button)
 
@@ -30,12 +30,11 @@ class MainWindow(Gtk.ApplicationWindow):
         spinner2_hbox = Gtk.Box.new( Gtk.Orientation.HORIZONTAL,1)
         self.main_vertical_box.append(spinner2_hbox)
 
-        self.start_spinner2_button = Gtk.ToggleButton.new_with_label("Start Spinner2")
-        self.start_spinner2_button.props.hexpand = True # to horizontal expand 
+        self.start_spinner2_button = Gtk.CheckButton.new_with_label("Start Spinner2")
         self.start_spinner2_button.connect("toggled",self.on_start_stop_spinner_button_toggled,spinner2)
         spinner2_hbox.append(self.start_spinner2_button)
 
-        self.stop_spinner2_button  = Gtk.ToggleButton.new_with_label("Stop Spinner2")
+        self.stop_spinner2_button  = Gtk.CheckButton.new_with_label("Stop Spinner2")
         spinner2_hbox.append(self.stop_spinner2_button)
 
         self.start_spinner2_button.set_group(self.stop_spinner2_button)
@@ -46,7 +45,6 @@ class MainWindow(Gtk.ApplicationWindow):
             spinner.start()
         else:
             spinner.stop()
-
 
 class MyApp(Gtk.Application):
     def __init__(self, **kwargs):
@@ -64,6 +62,6 @@ app = MyApp(application_id="com.github.yucefsourani.myapplicationexample",flags=
 app.run(sys.argv)
 ```
 
-![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/togglebutton/Screenshot.png "Screenshot")
+![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/checkbutton/Screenshot.png "Screenshot")
 
-[Gtk.ToggleButton](https://amolenaar.github.io/pgi-docgen/#Gtk-4.0/classes/ToggleButton.html)
+[Gtk.CheckButton](https://amolenaar.github.io/pgi-docgen/#Gtk-4.0/classes/CheckButton.html)
