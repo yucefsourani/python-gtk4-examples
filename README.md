@@ -29,3 +29,5 @@
 * [13-Gtk.CheckButton](https://github.com/yucefsourani/python-gtk4-examples/tree/main/checkbutton)
 
 * [14-Gtk.ColorButton](https://github.com/yucefsourani/python-gtk4-examples/tree/main/colorbutton)
+
+* [15-Gtk.ComboBoxText](https://github.com/yucefsourani/python-gtk4-examples/tree/main/comboboxtext)
