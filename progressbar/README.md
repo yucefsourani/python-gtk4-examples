@@ -60,7 +60,7 @@ class MainWindow(Gtk.ApplicationWindow):
         threading.Thread(target=self.__thread_second_progressbar_button_clicked,args=(second_progressbar_button,)).start()
         
     def __thread_second_progressbar_button_clicked(self,second_progressbar_button):
-        for i in range(20):# timeout for 20 second
+        for i in range(20):# timeout
             GLib.idle_add(self.progressbar2.pulse)
             time.sleep(0.2)
         GLib.idle_add(self.progressbar2.set_fraction,0.0)
