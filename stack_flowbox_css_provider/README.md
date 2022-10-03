@@ -43,11 +43,11 @@ class MainWindow(Gtk.ApplicationWindow):
         self.stack.props.hexpand = True
         self.stack.props.vexpand = True
         data_and_categories = {
-                 ("Firefox" ,"Web Bowser"            ,"icons_folder/appicns_Firefox.png")    : "Internet",
-                 ("Chromium","Web Bowser"            ,"icons_folder/Chromium_logo.png")      : "Internet",
-                 ("Brave"   ,"Web Bowser"            ,"icons_folder/brave.png")              : "Internet",
-                 ("Opera"   ,"Web Bowser"            ,"icons_folder/Opera-logo-256x256.png") : "Internet",
-                 ("Vivaldi" ,"Web Bowser"            ,"icons_folder/vivaldi.png")            : "Internet",
+                 ("Firefox" ,"Web Browser"            ,"icons_folder/appicns_Firefox.png")    : "Internet",
+                 ("Chromium","Web Browser"            ,"icons_folder/Chromium_logo.png")      : "Internet",
+                 ("Brave"   ,"Web Browser"            ,"icons_folder/brave.png")              : "Internet",
+                 ("Opera"   ,"Web Browser"            ,"icons_folder/Opera-logo-256x256.png") : "Internet",
+                 ("Vivaldi" ,"Web Browser"            ,"icons_folder/vivaldi.png")            : "Internet",
                  ("Gimp"    ,"Image Manipulation"    ,"icons_folder/gimp.png")               : "Graphics",
                  ("Inkscape","svg Editor..."         ,"icons_folder/inkscape.png")           : "Graphics",
                  ("Krita"   ,"sketching and painting","icons_folder/krita.png")              : "Graphics",
