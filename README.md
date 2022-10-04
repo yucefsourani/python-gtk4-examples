@@ -36,4 +36,4 @@
 
 * [17-Gtk.FlowBox + Gtk.Stack + Gtk.Image + Gtk.CssProvider](https://github.com/yucefsourani/python-gtk4-examples/tree/main/stack_flowbox_css_provider)
   
-  
+* [18-Gtk.Entry](https://github.com/yucefsourani/python-gtk4-examples/tree/main/entry)
