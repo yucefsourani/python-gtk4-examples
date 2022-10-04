@@ -47,6 +47,7 @@ class MainWindow(Gtk.ApplicationWindow):
             self.entry_buffer.set_text("",0) # clear
             
     def on_text_changed(self,buffer_,prop):
+        print(buffer_.props.text)
         text_length = len(buffer_.props.text)
         self.entry.set_progress_fraction(text_length*0.05) # optional#  max text length 20 look at line 36 - fraction from 0 to 1 
         
