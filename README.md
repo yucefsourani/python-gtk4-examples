@@ -35,7 +35,9 @@
 * [16-Gtk.Stack](https://github.com/yucefsourani/python-gtk4-examples/tree/main/stack)
 
 * [17-Gtk.FlowBox + Gtk.Stack + Gtk.Image + Gtk.CssProvider](https://github.com/yucefsourani/python-gtk4-examples/tree/main/stack_flowbox_css_provider)
-  
+
 * [18-Gtk.Entry](https://github.com/yucefsourani/python-gtk4-examples/tree/main/entry)
 
 * [19-Gtk.PasswordEntry](https://github.com/yucefsourani/python-gtk4-examples/tree/main/passwordentry)
+
+* [20-Gtk.InfoBar](https://github.com/yucefsourani/python-gtk4-examples/tree/main/infobar)
