@@ -41,3 +41,5 @@
 * [19-Gtk.PasswordEntry](https://github.com/yucefsourani/python-gtk4-examples/tree/main/passwordentry)
 
 * [20-Gtk.InfoBar](https://github.com/yucefsourani/python-gtk4-examples/tree/main/infobar)
+
+* [21-Gtk.AppChooserButton](https://github.com/yucefsourani/python-gtk4-examples/tree/main/appchooserbutton)
