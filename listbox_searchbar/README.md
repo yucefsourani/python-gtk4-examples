@@ -73,7 +73,7 @@ class MainWindow(Gtk.ApplicationWindow):
         
     def on_filter_invalidate(self,row):
         text_to_search = self.searchentry.get_text().strip() # get text from searchentry and remove space from start and end
-        if text_to_search.lower() in row.get_child().MYTEXT.lower(): # == row_hbox.SERVICE (get_child()===>Gtk.ListBoxRow===>row_hbox.SERVICE)
+        if text_to_search.lower() in row.get_child().MYTEXT.lower(): # == row_hbox.MYTEXT (get_child()===>Gtk.ListBoxRow===>row_hbox.MYTEXT)
             return True # if True Show row
         return False 
                 
