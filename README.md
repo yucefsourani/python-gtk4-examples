@@ -43,3 +43,5 @@
 * [20-Gtk.InfoBar](https://github.com/yucefsourani/python-gtk4-examples/tree/main/infobar)
 
 * [21-Gtk.AppChooserButton](https://github.com/yucefsourani/python-gtk4-examples/tree/main/appchooserbutton)
+
+* [22-Gtk.ListBox+Gtk.SearchBar](https://github.com/yucefsourani/python-gtk4-examples/tree/main/listbox_searchbar)
