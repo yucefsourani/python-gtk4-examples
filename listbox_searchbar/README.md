@@ -44,7 +44,7 @@ class MainWindow(Gtk.ApplicationWindow):
 
             
         for i in ("Beirut","Saida","Lebanon","Palestine","Tripoli","Syria","Jordan","Iraq","Ksa","kuwait","Egypt","Oman"):
-            row_hbox = self.main_box = Gtk.Box.new( Gtk.Orientation.HORIZONTAL,0)
+            row_hbox  = Gtk.Box.new( Gtk.Orientation.HORIZONTAL,0)
             row_hbox.MYTEXT = i # to filter later
             self.listbox.append(row_hbox)
 
