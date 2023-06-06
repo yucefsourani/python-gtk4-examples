@@ -1,4 +1,4 @@
-# Gtk.Window
+# Adw.ApplicationWindow
 
 ```python
 import sys
