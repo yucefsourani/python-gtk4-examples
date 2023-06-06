@@ -45,3 +45,6 @@
 * [21-Gtk.AppChooserButton](https://github.com/yucefsourani/python-gtk4-examples/tree/main/appchooserbutton)
 
 * [22-Gtk.ListBox+Gtk.SearchBar](https://github.com/yucefsourani/python-gtk4-examples/tree/main/listbox_searchbar)
+
+* [23-Adw.ApplicationWindow+Gtk.Scale+Adw.Clamp+AdwExpanderRow](https://github.com/yucefsourani/python-gtk4-examples/tree/main/libadwaita_scale_clamp_expanderrow)
+
