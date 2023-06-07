@@ -48,3 +48,5 @@
 
 * [23-Adw.ApplicationWindow+Gtk.Scale+Adw.Clamp+AdwExpanderRow](https://github.com/yucefsourani/python-gtk4-examples/tree/main/libadwaita_scale_clamp_expanderrow)
 
+* [23-Adw.ApplicationWindow+Gtk.Scale+Adw.Clamp+AdwExpanderRow+Gtk.SearchBar](https://github.com/yucefsourani/python-gtk4-examples/tree/main/libadwaita_scale_clamp_expanderrow_searchbar)
+
