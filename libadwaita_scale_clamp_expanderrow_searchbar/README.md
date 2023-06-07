@@ -100,7 +100,7 @@ app = MyApp(application_id="com.github.yucefsourani.myapplicationexample",flags=
 app.run(sys.argv)
 ```
 
-![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/libadwaita_scale_clamp_expanderrow/Screenshot_1.png "Screenshot")
+![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/libadwaita_scale_clamp_expanderrow_searchbar/Screenshot_1.png "Screenshot")
 
 
 
