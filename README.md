@@ -52,4 +52,4 @@
 
 # Full small programs
 
-* 
+* [Pyscanbc Scan barcode by zbar gtreamer plugin](https://github.com/yucefsourani/python-gtk4-examples/tree/main/small_programs/pyscanbc)
