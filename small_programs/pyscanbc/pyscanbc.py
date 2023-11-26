@@ -93,7 +93,7 @@ class BarCode(Gtk.Widget):
         self.dp = CProxy("org.freedesktop.portal.Desktop","/org/freedesktop/portal/desktop","org.freedesktop.portal.Device")
         self.cp = CProxy("org.freedesktop.portal.Desktop","/org/freedesktop/portal/desktop","org.freedesktop.portal.Camera")
 
-        self.player = Gst.parse_launch("pipewiresrc name=pipewiresrc ! videoconvert ! zbar attach-frame=true ! videoconvert  ! gtk4paintablesink name=gtk4")
+        self.player = Gst.parse_launch("pipewiresrc name=pipewiresrc ! videoconvert ! zbar  ! videoconvert  ! gtk4paintablesink name=gtk4")
         self.pipewiresrc       = self.player.get_by_name('pipewiresrc')
         self.gtk4paintablesink = self.player.get_by_name('gtk4')
         self.gtk4paintables    = self.gtk4paintablesink.props.paintable
