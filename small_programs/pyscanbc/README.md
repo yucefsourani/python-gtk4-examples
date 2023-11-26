@@ -6,6 +6,8 @@
 
 ``` gstreamer1-plugin-gtk4 ```
 
+``` python3-dbus ```
+
 ![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/small_programs/pyscanbc/Screenshot.png "Screenshot")
 
 ![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/small_programs/pyscanbc/Screenshot1.png "Screenshot")
