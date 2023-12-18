@@ -80,15 +80,15 @@ class MainWindow(Gtk.ApplicationWindow):
 
             icon      = Gtk.Image.new_from_file(data[2])#data[2] icons_folder/appicns_Firefox.png and ...
             icon.set_icon_size(Gtk.IconSize.LARGE)
-            # https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/Image.html
+            # https://lazka.github.io/pgi-docs/#Gtk-4.0/classes/Image.html
             icon_vbox.append(icon)
 
             name_label = Gtk.Label.new(data[0]) #Firefox and ....
-            name_label.get_style_context().add_class("h1") # look at css
+            name_label.add_css_class("h1") # look at css
             icon_vbox.append(name_label)
 
             summary_label = Gtk.Label.new(data[1])  #Web Browser and ....
-            summary_label.get_style_context().add_class("h3") #look at css
+            summary_label.add_css_class("h3") #look at css
             icon_vbox.append(summary_label)
 
             button = Gtk.Button.new()
@@ -128,12 +128,12 @@ app.run(sys.argv)
 
 ![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/stack_flowbox_css_provider/Screenshot.png "Screenshot")
 
-[Gtk.FlowBox](https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/FlowBox.html)
+[Gtk.FlowBox](https://lazka.github.io/pgi-docs/#Gtk-4.0/classes/FlowBox.html)
 
-[Gtk.Stack](https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/Stack.html)
+[Gtk.Stack](https://lazka.github.io/pgi-docs/#Gtk-4.0/classes/Stack.html)
 
-[Gtk.Image](https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/Image.html)
+[Gtk.Image](https://lazka.github.io/pgi-docs/#Gtk-4.0/classes/Image.html)
 
-[Gtk.CssProvider](https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/CssProvider.html)
+[Gtk.CssProvider](https://lazka.github.io/pgi-docs/#Gtk-4.0/classes/CssProvider.html)
 
-[Gtk.StyleContext](https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/StyleContext.html)
+[Gtk.StyleContext](https://lazka.github.io/pgi-docs/#Gtk-4.0/classes/StyleContext.html)

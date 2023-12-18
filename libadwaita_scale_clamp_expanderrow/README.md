@@ -75,14 +75,14 @@ app.run(sys.argv)
 
 
 
-[Adw.ApplicationWindow](https://amolenaar.github.io/pgi-docgen/index.html#Adw-1/classes/ApplicationWindow.html)
+[Adw.ApplicationWindow](https://lazka.github.io/pgi-docs/index.html#Adw-1/classes/ApplicationWindow.html)
 
 
-[Adw.Clamp](https://amolenaar.github.io/pgi-docgen/index.html#Adw-1/classes/Clamp.html)
+[Adw.Clamp](https://lazka.github.io/pgi-docs/index.html#Adw-1/classes/Clamp.html)
 
 
-[Adw.ExpanderRow](https://amolenaar.github.io/pgi-docgen/index.html#Adw-1/classes/ExpanderRow.html)
+[Adw.ExpanderRow](https://lazka.github.io/pgi-docs/index.html#Adw-1/classes/ExpanderRow.html)
 
 
-[Gtk.Scale](https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/Scale.html)
+[Gtk.Scale](https://lazka.github.io/pgi-docgen/index.html#Gtk-4.0/classes/Scale.html)
 

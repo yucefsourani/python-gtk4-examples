@@ -20,7 +20,7 @@ class MainWindow(Gtk.ApplicationWindow):
         self.progressbar1 = Gtk.ProgressBar.new()
         self.progressbar1.set_show_text(True)
         self.progressbar1.set_ellipsize(Pango.EllipsizeMode.END)
-        # https://amolenaar.github.io/pgi-docgen/Pango-1.0/enums.html#Pango.EllipsizeMode
+        # https://lazka.github.io/pgi-docs/Pango-1.0/enums.html#Pango.EllipsizeMode
         self.main_vertical_box.append(self.progressbar1)
         
         first_progressbar_button = Gtk.Button.new()
@@ -84,4 +84,4 @@ app.run(sys.argv)
 
 ![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/progressbar/Screenshot.png "Screenshot")
 
-[Gtk.ProgressBar](https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/ProgressBar.html)
+[Gtk.ProgressBar](https://lazka.github.io/pgi-docs/#Gtk-4.0/classes/ProgressBar.html)

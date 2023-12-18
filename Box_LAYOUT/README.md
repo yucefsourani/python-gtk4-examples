@@ -22,7 +22,7 @@ class MainWindow(Gtk.ApplicationWindow):
         self.quit_button = Gtk.Button.new_with_label("Quit")
         self.quit_button.connect("clicked",self.on_quit_button_clicked)
         self.quit_button.props.vexpand = True  # Whether to expand vertically
-        # https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/Widget.html#Gtk.Widget.props.vexpand
+        # https://lazka.github.io/pgi-docgen/index.html#Gtk-4.0/classes/Widget.html#Gtk.Widget.props.vexpand
         self.main_vertical_box.append(self.quit_button)
 
     def on_about_button_clicked(self,about_clicked_button,msg):
@@ -49,4 +49,4 @@ app.run(sys.argv)
 
 ![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/Box_LAYOUT/Screenshot.png "Screenshot")
 
-[Gtk.Box](https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/Box.html)
+[Gtk.Box](https://lazka.github.io/pgi-docgen/index.html#Gtk-4.0/classes/Box.html)

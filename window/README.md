@@ -28,4 +28,4 @@ while not QUIT:
 
 
 
-[Gtk.WIndow](https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/Window.html)
+[Gtk.WIndow](https://lazka.github.io/pgi-docs/#Gtk-4.0/classes/Window.html)

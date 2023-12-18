@@ -28,7 +28,7 @@ class MainWindow(Gtk.ApplicationWindow):
         infobar.connect("response",self.on_infobar_action_button_clicked)
         
         install_geany_button = Gtk.Button.new()
-        install_geany_button.get_style_context().add_class("suggested-action") # try get_style_context().add_class("destructive-action")
+        install_geany_button.add_css_class("suggested-action") # try add_css_class("destructive-action")
         install_geany_button.props.label = "Install Geany IDE"
         install_geany_button.connect("clicked",self.on_install_geany_button_clicked,infobar,"Yes|No Install Geany ?",["pkexe dnf install geany -y"])
         self.main_box.append(install_geany_button)
@@ -70,4 +70,4 @@ app.run(sys.argv)
 
 ![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/infobar/Screenshot.png "Screenshot")
 
-[Gtk.InfoBar](https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/InfoBar.html)
+[Gtk.InfoBar](https://lazka.github.io/pgi-docgen/index.html#Gtk-4.0/classes/InfoBar.html)

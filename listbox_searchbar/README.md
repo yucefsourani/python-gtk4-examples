@@ -95,6 +95,6 @@ app.run(sys.argv)
 
 ![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/listbox_searchbar/Screenshot.png "Screenshot")
 
-[Gtk.ListBox](https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/ListBox.html)
+[Gtk.ListBox](https://lazka.github.io/pgi-docs/#Gtk-4.0/classes/ListBox.html)
 
-[Gtk.SearchBar](https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/SearchBar.html)
+[Gtk.SearchBar](https://lazka.github.io/pgi-docs/#Gtk-4.0/classes/SearchBar.html)

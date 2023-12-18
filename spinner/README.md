@@ -59,4 +59,4 @@ app.run(sys.argv)
 
 ![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/spinner/Screenshot.png "Screenshot")
 
-[Gtk.Spinner](https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/Spinner.html)
+[Gtk.Spinner](https://lazka.github.io/pgi-docs/#Gtk-4.0/classes/Spinner.html)

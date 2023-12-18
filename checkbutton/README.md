@@ -64,4 +64,4 @@ app.run(sys.argv)
 
 ![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/checkbutton/Screenshot.png "Screenshot")
 
-[Gtk.CheckButton](https://amolenaar.github.io/pgi-docgen/#Gtk-4.0/classes/CheckButton.html)
+[Gtk.CheckButton](https://lazka.github.io/pgi-docgen/#Gtk-4.0/classes/CheckButton.html)

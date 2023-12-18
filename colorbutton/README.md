@@ -24,7 +24,7 @@ class MainWindow(Gtk.ApplicationWindow):
         self.color_button2.set_use_alpha(True)
         mycolor = Gdk.RGBA()
         mycolor.parse("rgba(255,255,255,0.30)")
-        #https://amolenaar.github.io/pgi-docgen/index.html#Gdk-4.0/classes/RGBA.html#Gdk.RGBA.parse
+        #https://lazka.github.io/pgi-docgen/index.html#Gdk-4.0/classes/RGBA.html#Gdk.RGBA.parse
         self.color_button2.set_rgba(mycolor)
         
         colors_list = []
@@ -72,4 +72,4 @@ app.run(sys.argv)
 
 ![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/colorbutton/Screenshot.png "Screenshot")
 
-[Gtk.ColorButton](https://amolenaar.github.io/pgi-docgen/#Gtk-4.0/classes/ColorButton.html)
+[Gtk.ColorButton](https://lazka.github.io/pgi-docgen/#Gtk-4.0/classes/ColorButton.html)

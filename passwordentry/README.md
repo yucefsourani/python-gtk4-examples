@@ -28,7 +28,7 @@ class MainWindow(Gtk.ApplicationWindow):
     def on_text_changed(self,password_entry,prop):
         print(password_entry.props.text)
         # Gtk.PasswordEntry Implement Gtk.Editable
-        #https://amolenaar.github.io/pgi-docgen/Gtk-4.0/classes/Editable.html#properties
+        https://lazka.github.io/pgi-docs/#Gtk-4.0/classes/Editable.html#properties
 
         
 class MyApp(Gtk.Application):
@@ -49,4 +49,4 @@ app.run(sys.argv)
 
 ![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/passwordentry/Screenshot.png "Screenshot")
 
-[Gtk.PasswordEntry](https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/PasswordEntry.html)
+[Gtk.PasswordEntry](https://lazka.github.io/pgi-docs/#Gtk-4.0/classes/classes/PasswordEntry.html)
