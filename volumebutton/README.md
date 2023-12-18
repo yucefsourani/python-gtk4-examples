@@ -19,7 +19,7 @@ class MainWindow(Gtk.ApplicationWindow):
         hbox.props.margin_end    = 20
         hbox.props.margin_top    = 20
         hbox.props.margin_bottom = 20
-        #https://amolenaar.github.io/pgi-docgen/index.html#Gtk-4.0/classes/Widget.html#Gtk.Widget.props.margin_bottom
+        #https://lazka.github.io/pgi-docs/index.html#Gtk-4.0/classes/Widget.html#Gtk.Widget.props.margin_bottom
         self.main_vertical_box.append(hbox)
 
         volumebutton = Gtk.VolumeButton.new()

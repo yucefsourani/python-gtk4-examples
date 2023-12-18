@@ -60,4 +60,4 @@ app.run(sys.argv)
 
 ![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/comboboxtext/Screenshot.png "Screenshot")
 
-[Gtk.ComboBoxText](https://lazka.github.io/pgi-docgen/index.html#Gtk-4.0/classes/ComboBoxText.html)
+[Gtk.ComboBoxText](https://lazka.github.io/pgi-docs/index.html#Gtk-4.0/classes/ComboBoxText.html)

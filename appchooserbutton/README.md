@@ -40,7 +40,7 @@ class MainWindow(Gtk.ApplicationWindow):
         print(item_name) #CUSTOM
 
     def on_item_changed(self,app_chooser_button):
-        #https://lazka.github.io/pgi-docgen/Gio-2.0/classes/AppInfo.html#Gio.AppInfo
+        #https://lazka.github.io/pgi-docs/Gio-2.0/classes/AppInfo.html#Gio.AppInfo
         appinfo = app_chooser_button.get_app_info()
         if appinfo:
             print(appinfo.get_executable())
@@ -52,7 +52,7 @@ class MainWindow(Gtk.ApplicationWindow):
             print(appinfo.get_display_name())
         
     def on_print_selected_app_name_button_clicked(self,print_selected_app_name_button,app_chooser_button):
-        #https://lazka.github.io/pgi-docgen/Gio-2.0/classes/AppInfo.html#Gio.AppInfo
+        #https://lazka.github.io/pgi-docs/Gio-2.0/classes/AppInfo.html#Gio.AppInfo
         appinfo = app_chooser_button.get_app_info()
         if appinfo:
             print(appinfo.get_executable())
@@ -64,16 +64,16 @@ class MainWindow(Gtk.ApplicationWindow):
             print(appinfo.get_display_name())
             
     def on_launch_selected_app_button_clicked(self,launch_selected_app_button,app_chooser_button):
-        #https://lazka.github.io/pgi-docgen/Gio-2.0/classes/AppInfo.html#Gio.AppInfo
+        #https://lazka.github.io/pgi-docs/Gio-2.0/classes/AppInfo.html#Gio.AppInfo
         appinfo = app_chooser_button.get_app_info()
         if appinfo:
             launch_selected_app_button.set_sensitive(False)#disable button
             appinfo.launch_uris_async(None,None,None,self.on_launch_finish,launch_selected_app_button)
-            #https://amolenaar.github.io/pgi-docgen/Gio-2.0/classes/AppInfo.html#Gio.AppInfo.launch_uris_async
+            #https://amolenaar.github.io/pgi-docs/Gio-2.0/classes/AppInfo.html#Gio.AppInfo.launch_uris_async
 
     def on_launch_finish(self,appinfo, result,launch_selected_app_button):
-        #https://lazka.github.io/pgi-docgen/Gio-2.0/callbacks.html#Gio.AsyncReadyCallback
-        #https://lazka.github.io/pgi-docgen/Gio-2.0/classes/AppInfo.html#Gio.AppInfo.launch_uris_finish
+        #https://lazka.github.io/pgi-docs/Gio-2.0/callbacks.html#Gio.AsyncReadyCallback
+        #https://lazka.github.io/pgi-docs/Gio-2.0/classes/AppInfo.html#Gio.AppInfo.launch_uris_finish
         try:
             status = appinfo.launch_uris_finish(result)
             print(status)
@@ -99,4 +99,4 @@ app.run(sys.argv)
 
 ![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/appchooserbutton/Screenshot.png "Screenshot")
 
-[Gtk.AppChooserButton](https://lazka.github.io/pgi-docgen/#Gtk-4.0/classes/AppChooserButton.html)
+[Gtk.AppChooserButton](https://lazka.github.io/pgi-docs/#Gtk-4.0/classes/AppChooserButton.html)

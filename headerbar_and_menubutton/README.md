@@ -76,8 +76,8 @@ app.run(sys.argv)
 
 
 
-[Gtk.HeaderBar](https://lazka.github.io/pgi-docgen/index.html#Gtk-4.0/classes/HeaderBar.html)
+[Gtk.HeaderBar](https://lazka.github.io/pgi-docs/index.html#Gtk-4.0/classes/HeaderBar.html)
 
 
 
-[Gtk.MenuButton](https://lazka.github.io/pgi-docgen/index.html#Gtk-4.0/classes/MenuButton.html)
+[Gtk.MenuButton](https://lazka.github.io/pgi-docs/index.html#Gtk-4.0/classes/MenuButton.html)

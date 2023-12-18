@@ -19,7 +19,7 @@ class MainWindow(Gtk.ApplicationWindow):
         self.text_label1 = Gtk.Label.new("Gtk.Label Example 111 111 111 1111 111 111 111 111 111 111 111 11")
         self.text_label1.props.wrap = True
         self.text_label1.set_wrap_mode(Pango.WrapMode.WORD)
-        # https://lazka.github.io/pgi-docgen/Pango-1.0/enums.html#Pango.WrapMode
+        # https://lazka.github.io/pgi-docs/Pango-1.0/enums.html#Pango.WrapMode
         self.main_vertical_box.append(self.text_label1)
     
         
@@ -32,7 +32,7 @@ class MainWindow(Gtk.ApplicationWindow):
         if self.text_label1.props.wrap: # if True
             self.text_label1.props.wrap = False
             self.text_label1.set_ellipsize( Pango.EllipsizeMode.END)
-            # https://lazka.github.io/pgi-docgen/Pango-1.0/enums.html#Pango.EllipsizeMode
+            # https://lazka.github.io/pgi-docs/Pango-1.0/enums.html#Pango.EllipsizeMode
             wrap_or_ellipsize_clicked_button.set_label("Wrap Text") 
         else:
             self.text_label1.set_ellipsize( Pango.EllipsizeMode.NONE)
@@ -58,4 +58,4 @@ app.run(sys.argv)
 
 ![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/label/Screenshot.png "Screenshot")
 
-[Gtk.label](https://lazka.github.io/pgi-docgen/index.html#Gtk-4.0/classes/Label.html)
+[Gtk.label](https://lazka.github.io/pgi-docs/index.html#Gtk-4.0/classes/Label.html)

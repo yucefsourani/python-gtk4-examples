@@ -104,7 +104,7 @@ app.run(sys.argv)
 
 
 
-[Adw.ApplicationWindow](https://amolenaar.github.io/pgi-docgen/index.html#Adw-1/classes/ApplicationWindow.html)
+[Adw.ApplicationWindow](https://lazka.github.io/pgi-docs/index.html#Adw-1/classes/ApplicationWindow.html)
 
 
 [Adw.Clamp](https://lazka.github.io/pgi-docs/index.html#Adw-1/classes/Clamp.html)

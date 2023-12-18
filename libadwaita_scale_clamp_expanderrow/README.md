@@ -84,5 +84,5 @@ app.run(sys.argv)
 [Adw.ExpanderRow](https://lazka.github.io/pgi-docs/index.html#Adw-1/classes/ExpanderRow.html)
 
 
-[Gtk.Scale](https://lazka.github.io/pgi-docgen/index.html#Gtk-4.0/classes/Scale.html)
+[Gtk.Scale](https://lazka.github.io/pgi-docs/index.html#Gtk-4.0/classes/Scale.html)
 
