@@ -52,6 +52,8 @@
 
 * [25-Gtk.ListView (Simple Example)](https://github.com/yucefsourani/python-gtk4-examples/tree/main/simple_list_view_example)
 
+* [26-Gio.Settings (Bind Gnome Shell Setting To Switch Row) ](https://github.com/yucefsourani/python-gtk4-examples/tree/main/gio_settings)
+
 # Full small programs
 
 * [Pyscanbc Scan barcode by zbar gtreamer plugin](https://github.com/yucefsourani/python-gtk4-examples/tree/main/small_programs/pyscanbc)
