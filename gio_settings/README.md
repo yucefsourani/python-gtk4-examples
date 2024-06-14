@@ -36,7 +36,7 @@ class MainWindow(Adw.ApplicationWindow):
             action_row.set_title_lines(1)  # number of line before wrap title text (require libAdwaita version > 1.2)
             action_row.set_subtitle_lines(4) # number of line before wrap subtitle text (require libAdwaita version > 1.2)
         
-        action_row.add_prefix(Gtk.Image.new_from_icon_name("audio-input-microphone-symbolic")) # use https://flathub.org/apps/org.gnome.design.IconLibrary
+        action_row.add_prefix(Gtk.Image.new_from_icon_name("audio-volume-overamplified-symbolic")) # use https://flathub.org/apps/org.gnome.design.IconLibrary
         action_row.set_title("Gnome Volume Above")
         action_row.set_subtitle("Allow Volume Above 100 Percent")
         
