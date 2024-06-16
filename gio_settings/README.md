@@ -64,6 +64,6 @@ app.run(sys.argv)
 
 ![Alt text](https://raw.githubusercontent.com/yucefsourani/python-gtk4-examples/main/gio_settings/Screenshot1.png "Screenshot")
 
-[Gtk.ListView](https://lazka.github.io/pgi-docs/#Gio-2.0/classes/Settings.html#Gio.Settings)
+[Gio.Settings](https://lazka.github.io/pgi-docs/#Gio-2.0/classes/Settings.html#Gio.Settings)
 
-[Gtk.StringList](https://lazka.github.io/pgi-docs/#Adw-1/classes/SwitchRow.html#Adw.SwitchRow)
+[Adw.SwitchRow](https://lazka.github.io/pgi-docs/#Adw-1/classes/SwitchRow.html#Adw.SwitchRow)
